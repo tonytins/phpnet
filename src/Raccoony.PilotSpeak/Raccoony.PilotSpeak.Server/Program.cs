@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace Raccoony.PilotSpeakGenerator.Server
+namespace Raccoony.PilotSpeak.Server
 {
     class Program
     {

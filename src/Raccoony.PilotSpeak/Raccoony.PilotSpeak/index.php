@@ -1,4 +1,4 @@
-  <!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -63,7 +63,8 @@
         $wordbankformatted = number_format($wordbank);?>
       <p><small>So far, <mark><strong><?php echo $yes ?></strong></mark> phrases were generated using this app. Application made in love by <a href="http://t.me/drraccoon/">@DrRaccoon</a> for <a href="http://t.me/vulan/">@Vulan</a> and all my other aviation friends. Like what I make? <a href="https://ko-fi.com/drraccoon"><i class="fad fa-mug-hot"></i> Buy me a coffee</a>!<br>
         There are currenly <mark><? echo $wordbankformatted; ?></mark> words, making <mark><? echo $totalcomboformatted; ?></mark> total combinations. Want to contribute more phases and words? Join this <a href="https://t.me/PilotSpeak">telegram group</a>. Last updated: <mark><? echo "".date("F d Y.",filemtime("index.php")); ?></mark></small></p>
-        <center><p>Accidentally made in <i class="fab fa-php"></i></center></p>
+        <center><p>Accidentally made in <i class="fab fa-php"></i>
+        <br /><small>Accidentally ported to <i class="fab fa-microsoft"></i> .NET by Tonytins</small></center></p>
      </div>
      <input type="text" value="The <?php echo $pick1; ?> on <?php echo $pick2; ?> <?php echo $pick3; ?> was <?php echo $pick4; ?>." id="textInput" style="opacity: 0;">
      <script>

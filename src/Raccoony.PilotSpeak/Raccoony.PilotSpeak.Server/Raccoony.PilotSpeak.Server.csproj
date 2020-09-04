@@ -7,17 +7,17 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="wwwroot\" />
-    </ItemGroup>
-
-    <ItemGroup>
         <PackageReference Include="Peachpie.AspNetCore.Web" Version="1.0.0-preview1" />
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Raccoony.PilotSpeakGenerator\Raccoony.PilotSpeakGenerator.msbuildproj">
+        <ProjectReference Include="..\Raccoony.PilotSpeak\Raccoony.PilotSpeak.msbuildproj">
             <PrivateAssets>None</PrivateAssets>
         </ProjectReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="wwwroot\" />
     </ItemGroup>
 
 </Project>
